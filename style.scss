@@ -10,6 +10,7 @@
 .icon{
 	padding: 20px;
 	color: white;
+	cursor: pointer;
 
 	&:nth-child(1){
 	background-color: purple;
@@ -24,12 +25,15 @@
 	span{
 	margin-left: 0rem;
 	display:none;
-	transition: margin 2s ; 
+	transition: margin 2.5s ; 
 	}
 
 	&:hover{
-	display: block;
+	span{
+	display: initial;
 	margin-left: 2rem;
+	}
+	
 	}
 
 }

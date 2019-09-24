@@ -7,7 +7,8 @@
 
 .icon {
   padding: 20px;
-  color: white; }
+  color: white;
+  cursor: pointer; }
   .icon:nth-child(1) {
     background-color: purple; }
   .icon:nth-child(2) {
@@ -17,9 +18,9 @@
   .icon span {
     margin-left: 0rem;
     display: none;
-    transition: margin 2s; }
-  .icon:hover {
-    display: block;
+    transition: margin 2.5s; }
+  .icon:hover span {
+    display: initial;
     margin-left: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

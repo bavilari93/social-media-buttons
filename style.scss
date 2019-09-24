@@ -1,0 +1,35 @@
+.container{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+
+}
+
+.icon{
+	padding: 20px;
+	color: white;
+
+	&:nth-child(1){
+	background-color: purple;
+	}
+	&:nth-child(2){
+	background-color: navy;
+	}
+	&:nth-child(3){
+	background-color: pink;
+	}
+
+	span{
+	margin-left: 0rem;
+	display:none;
+	transition: margin 2s ; 
+	}
+
+	&:hover{
+	display: block;
+	margin-left: 2rem;
+	}
+
+}

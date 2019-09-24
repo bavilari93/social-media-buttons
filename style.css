@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh; }
+
+.icon {
+  padding: 20px;
+  color: white; }
+  .icon:nth-child(1) {
+    background-color: purple; }
+  .icon:nth-child(2) {
+    background-color: navy; }
+  .icon:nth-child(3) {
+    background-color: pink; }
+  .icon span {
+    margin-left: 0rem;
+    display: none;
+    transition: margin 2s; }
+  .icon:hover {
+    display: block;
+    margin-left: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
